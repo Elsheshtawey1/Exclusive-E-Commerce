@@ -1,0 +1,1 @@
+window.onload=function(){setTimeout(()=>{document.getElementById('loading').style.display='none';window.location.href='page/home.html'},1000)}

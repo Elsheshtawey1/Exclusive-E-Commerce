@@ -1,0 +1,1 @@
+emailjs.init('E_7NVqIGUVsUklRBu');const sendEmail=(e)=>{e.preventDefault();const form=e.target;emailjs.sendForm('service_1t9hseq','template_dumosqw',form).then(()=>{console.log('success');alert('success')}).catch((error)=>{console.error('Error sending email',error.text);alert('Error sending email')})};document.querySelector('#contact-form').addEventListener('submit',sendEmail)
